@@ -1,3 +1,4 @@
+                /* Global roles */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,12 @@ body {
     font-family: 'Overpass', sans-serif;
     /* font-size: 16px; */
 }
+
+.container {
+    overflow: hidden;
+}
+
+                /* First part */
 
 .fp {
     background-color: hsl(353, 100%, 62%);
@@ -23,7 +30,7 @@ body {
     justify-content: space-between;
     flex-direction: row;
 }
-
+                
 .logoMenu {
     display: flex;
     display: flex;
@@ -50,14 +57,14 @@ body {
     margin-left: 40px;
     font-weight: bold;
 }
-
+                
 .btns {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     padding: 6px 0 0 0;
 }
-
+                
 .btns .login .logBtn {
     border: none;
     outline: none;
@@ -68,7 +75,7 @@ body {
     cursor: pointer;
     padding-top: 11px;
 }
-
+                
 .btns .signup .sgnBtn {
     cursor: pointer;
     padding: 8px 20px;
@@ -85,7 +92,7 @@ body {
     background-color: hsl(356, 100%, 66%);
     border: 1px solid hsl(356, 100%, 66%);
 }
-
+                
 .sp {
     padding-top: 80px;
 }
@@ -105,7 +112,7 @@ body {
     font-weight: bold;
     font-size: 60px;
 }
-
+                
 .s-para {
     display: flex;
     justify-content: center;
@@ -120,7 +127,7 @@ body {
 .btn-start {
     margin: 0 5px 0 0;
 }
-
+                
 .btn-start button {
     cursor: pointer;
     padding: 9px 16px;
@@ -138,7 +145,7 @@ body {
     background-color: hsl(356, 100%, 66%);
     border: 1px solid hsl(356, 100%, 66%);
 }
-
+                
 .btn-learn {
     margin: 0 0 0 5px;
 }
@@ -154,9 +161,81 @@ body {
     font-weight: 500;
     font-size: 15px;
 }
-
+                
 .btn-learn button:hover {
     color: hsl(356, 100%, 66%);
     background-color: hsl(0, 0%, 100%);
     font-weight: bold;
+}
+                        /* Second part */
+
+.second-part {
+    width: 1624px;
+}
+
+.content-items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.left {
+    width: 60%;
+    padding: 100px 92px 0 175px;
+}
+
+.left h1 {
+    display: flex;
+    justify-content: flex-end;
+    color: hsl(208, 49%, 24%);
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.left-cont {
+    padding: 40px;
+}
+
+.f-pLeft h2 {
+    padding: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    color: hsl(208, 49%, 24%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.f-pLeft p {
+    padding-right: 19px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.right {
+    width: 40%;
+}
+
+.right-img {
+    padding-top: 45px;
+}
+
+.right-img img {
+    height: 460px;
+    width: 531px;
+}
+
+.s-pRight {
+    padding-top: 25px;
+}
+
+.s-pRight h2 {
+    padding: 0 0 20px 0;
+    color: hsl(208, 49%, 24%);
+    font-size: 20px;
+    font-weight: bold
+}
+
+.s-pRight p {
+    padding-right: 19px;
+    line-height: 1.6;
+    font-size: 15px;
 }
