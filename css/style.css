@@ -6,13 +6,13 @@
 
 body {
     font-family: 'Overpass', sans-serif;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 .fp {
     background-color: hsl(353, 100%, 62%);
     width: 100%;
-    height: 410px;
+    height: 435px;
     padding: 47px 152px;
     border-radius: 0 0 0 90px;
 }
@@ -84,4 +84,79 @@ body {
     color: #fff;
     background-color: hsl(356, 100%, 66%);
     border: 1px solid hsl(356, 100%, 66%);
+}
+
+.sp {
+    padding-top: 80px;
+}
+
+.s-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.bp {
+    display: flex;
+    justify-content: center;
+}
+
+.bp h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.s-para {
+    display: flex;
+    justify-content: center;
+}
+
+.s-para p {
+    color: #fff;
+    font-weight: bold;
+    padding: 13px 0 30px 0
+}
+
+.btn-start {
+    margin: 0 5px 0 0;
+}
+
+.btn-start button {
+    cursor: pointer;
+    padding: 9px 16px;
+    outline: none;
+    border-radius: 18px;
+    border: 1px solid hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-start button:hover {
+    color: #fff;
+    background-color: hsl(356, 100%, 66%);
+    border: 1px solid hsl(356, 100%, 66%);
+}
+
+.btn-learn {
+    margin: 0 0 0 5px;
+}
+
+.btn-learn button {
+    cursor: pointer;
+    padding: 9px 16px;
+    outline: none;
+    border-radius: 18px;
+    border: 1px solid hsl(0, 0%, 100%);
+    background-color: hsl(356, 100%, 66%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn-learn button:hover {
+    color: hsl(356, 100%, 66%);
+    background-color: hsl(0, 0%, 100%);
+    font-weight: bold;
 }
