@@ -294,9 +294,50 @@ body {
                         /* forth part */
 
 .forth-part {
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 .content-forth {
     display: flex;
 }
+
+.img-box {
+    margin-left: -179px;
+    width: 50%;
+}
+
+.img-box img {
+    width: 640px;
+    height: 500px;
+}
+
+.box-right {
+    padding: 120px 30px 0 180px;
+    width: 50%;
+}
+
+.box-right h1 {
+    color: hsl(208, 49%, 24%);
+    font-size: 18PX;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.f2 {
+    padding-top: 30px;
+}
+
+.box-right p {
+    color: hsl(237, 23%, 32%);
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/* 
+.box-right .f2 h1 {
+    color: hsl(208, 49%, 24%);
+    font-size: 18PX;
+    font-weight: bold;
+    padding-bottom: 20px;
+} */
