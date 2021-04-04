@@ -51,10 +51,27 @@ body {
     list-style-type: none;
 }
 
-select {
-    border: none;
-    background: none;
+i.fa.fa-caret-down {
+    color: #fff;
+    margin: 2px 0 0 5px;
+    width: 4px;
+    height: 4px;
+    cursor: pointer;
 }
+
+.menu-toggle {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+/*
+.i.fa.fa-bars {
+    color: #fff;
+    display: none;
+} */
 
 .menu-items ul li a {
     color: hsl(0, 0%, 100%);
@@ -433,12 +450,54 @@ select {
     display: none;
 }
 
+.sub-menu {
+    background-color: #fff;
+    width: 114px;
+    height: 114px;
+    border-radius: 5px;
+    z-index: 99;
+    display: block;
+    margin: 5px 0 0 33px;
+}
+
+ul.box-sub-menu {
+    display: block;
+    margin-left: -55px;
+}
+
+ul.box-sub-menu li {
+    margin: 10px
+}
+
+ul.box-sub-menu li a {
+    color: hsl(208, 49%, 24%);
+    font-size: 15px;
+}
+
+ul.box-sub-menu li a:hover {
+    color: #000;
+}
+
                     /* end footer */
 
 
                     /* Media Query */
 
 @media(max-width: 900px) {
+
+    .menu-toggle {
+        display: block;
+        margin: -16px 14px 0 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .btns {
+        display: none;
+    }
+
     .fp {
         height: 565px;
         padding: 0;
